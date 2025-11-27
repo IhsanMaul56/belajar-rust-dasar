@@ -45,7 +45,10 @@ fn shadowing() {
     let name = "Ihsan Gadun";
     println!("Hello, {}", name);
 
-    let name = 1;
+    let mut name = 1;
+    println!("Hello, {}", name);
+
+    name = 2;
     println!("Hello, {}", name);
 
     let name = true;
