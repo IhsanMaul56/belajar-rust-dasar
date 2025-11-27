@@ -26,3 +26,13 @@ fn mutable() {
     name = "Jekol";
     println!("Hello, {}", name);
 }
+
+#[test]
+fn static_type() {
+    let mut name = "Ihsan";
+    println!("Hello, {}", name);
+    
+    // name = 1;
+    name = "Tampan";
+    println!("Hello, {}", name);
+}
