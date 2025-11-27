@@ -36,3 +36,18 @@ fn static_type() {
     name = "Tampan";
     println!("Hello, {}", name);
 }
+
+#[test]
+fn shadowing() {
+    let name = "Sansgrids";
+    println!("Hello, {}", name);
+
+    let name = "Ihsan Gadun";
+    println!("Hello, {}", name);
+
+    let name = 1;
+    println!("Hello, {}", name);
+
+    let name = true;
+    println!("Hello, {}", name);
+}
